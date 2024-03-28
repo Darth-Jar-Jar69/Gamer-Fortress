@@ -1,0 +1,208 @@
+/* Updated color scheme */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue */
+}
+
+header {
+    background-color: #4169e1; /* Royal blue */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.video-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #4169e1; /* Royal blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add this CSS code to your existing styles.css file */
+
+/* Style for the video icon container */
+.video-icon {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    border-radius: 50%; /* Ensures the container is a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the play icon */
+.video-icon i {
+    font-size: 24px; /* Adjust as needed */
+    color: white; /* Color of the play icon */
+}
+
+/* Style for the video title */
+.video-item h3 {
+    margin-top: 10px; /* Adjust as needed */
+}
+
+/* Adjust the spacing and layout as needed */
+
+/* Add this CSS code to your existing page.css file */
+
+/* Add this CSS code to your existing page.css file */
+
+/* Styles for the logout link */
+.logout-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-link i {
+    margin-right: 5px;
+}
+
+.logout-link:hover {
+    background-color: #0056b3;
+}
+
+/* Add this CSS code to your existing page.css file */
+
+/* Style for the video grid */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust as needed */
+    gap: 20px; /* Adjust as needed */
+    padding: 20px; /* Adjust as needed */
+}
+
+/* Style for the video item */
+.video-item {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Style for the video icon container */
+.video-icon {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Adjust as needed */
+}
+
+/* Style for the play icon */
+.video-icon i {
+    font-size: 48px; /* Adjust as needed */
+    color: #333; /* Adjust as needed */
+}
+
+/* Style for the video title */
+.video-item h3 {
+    margin: 10px;
+    font-size: 16px; /* Adjust as needed */
+}
+
+/* Add this CSS code to your existing page.css file */
+
+/* Style for the video grid */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns per row */
+    gap: 20px; /* Adjust as needed */
+    padding: 20px; /* Adjust as needed */
+}
+
+/* Style for the video item */
+.video-item {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Style for the video icon container */
+.video-icon {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Adjust as needed */
+}
+
+/* Style for the play icon */
+.video-icon i {
+    font-size: 48px; /* Adjust as needed */
+    color: #333; /* Adjust as needed */
+}
+
+/* Style for the video title */
+.video-item h3 {
+    margin: 10px;
+    font-size: 16px; /* Adjust as needed */
+}
+
+/* Add this CSS code to your existing page.css file */
+
+/* Style for the video icon container */
+.video-icon {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Adjust as needed */
+    border-radius: 50%; /* Make the container a perfect circle */
+    overflow: hidden; /* Hide overflow content to keep it within the circle */
+}
+
+/* Style for the play icon */
+.video-icon i {
+    font-size: 48px; /* Adjust as needed */
+    color: #333; /* Adjust as needed */
+}
+
+
